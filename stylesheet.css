@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    color: white;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    position: relative;
+    font-size: 40px;
+    color:blue;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar{
+    display: inline-block;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+}
+.navbar a:hover{
+    color: red;
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(laptop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+
+}
+.home-content{
+    max-width: 600px;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 300;
+    margin: -3px 0;
+}
+.home-content p{
+    font-size: 20px;
+
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+    position: absolute;
+    top : 30%;
+    left: 40%;
+}
+h4{
+    font-size: 35px;
+    letter-spacing: 20px;
+    position: absolute;
+    top : 38%;
+    left: 40%;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    
+}
+
+img{
+border-radius: 50%;
+border-top: 5em solid transparent;
+border-right: 5em  solid transparent;
+border-bottom: -20em solid hidden;
+}
+.a1{font-size: 30px;
+    letter-spacing: 15px;
+    position: absolute;
+    top: 50%;
+    left: 40%;}

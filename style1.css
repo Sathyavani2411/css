@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    font-weight: 50px;
+    font-size: 50px;
+    align-items: center;
+    justify-items: center;
+    color: rgb(209, 5, 15);
+}
+ul li{
+    display: inline;
+    list-style: none;
+    margin:5px;}
+body{
+    background-color:orange;
+    color: black;
+    position: relative;
+    left: 100px;}
+hr{
+    border-top: 2px solid red;
+}
+.a{
+    float: right;
+    position: relative;
+    bottom: 300px;
+    right: 300px;    
+}
+p{
+    font-size: 20px;
+    padding: 10px;  
+}
+u{
+    color: blue;
+}
+footer{
+    position: relative;
+    top:170px;
+}
