@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+background-color: grey;
+border-radius:15px;
+margin: 40px;
+font-family: sans-serif;
+font-weight: 800;
+font-size: 60px;
+width: 95%;
+height: auto;
+color: antiquewhite;
+text-indent: 10%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+    padding-left: -5px;
+    background-color: grey;
+    border-radius: 5px;
+}
+.navbar ul li a{
+height: auto;
+width: 100%;
+margin: auto;
+font-weight: 200;
+font-family: sans-serif;
+text-decoration: none;
+list-style-type: none;
+font-size: 40px;
+color: antiquewhite;
+position: relative;
+}
+.container{
+    width: 95%;
+    height: 100vh;
+   
+}
+.sec{
+    width: 95%;
+    height: 140vh;
+    margin: 40px;
+    background-color: grey;
+    border-radius: 15px;
+    display: flex;
+    
+}
+.dotted{
+    margin: 50px;
+    height: 40%;
+    width: 100%;
+    border: dashed;
+    border-radius: 15px;
+    border-color: bisque;
+}
+.dotted h3{
+    height: 1%;
+    margin: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+.dotted img{
+    height:300px;
+    width: 140px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.dotted1{
+    margin: 50px;
+    height: 40%;
+    width: 100%;
+    border: dashed;
+    border-radius: 15px;
+    border-color: bisque;
+    margin-top: 5px; 
+}
+.dotted1 h3{
+    height: 1%;
+    margin: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+.dotted1 img{
+    height:300px;
+    width: 140px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.dotted2{
+    margin: 50px;
+    height: 40%;
+    width: 100%;
+    border: dashed;
+    border-radius: 15px;
+    border-color: bisque;
+}
+.dotted2 h3{
+    height: 1%;
+    margin: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+.dotted2 img{
+    height:300px;
+    width: 140px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+footer{
+background-color: grey;
+border-radius:15px;
+margin: 40px;
+width: 95%;
+height: 10vh;
+}
+footer h3{
+    font-family: sans-serif;
+    font-weight: 100px;
+    font-size: 20px;
+    text-align: center;
+    color: azure;
+    padding-top: 40px;
+}
